@@ -1,0 +1,4 @@
+pageObjects\LogoutPage.class
+pageObjects\RegisterPage.class
+pageObjects\LoginPage.class
+pageObjects\HomePage.class

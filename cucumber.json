@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful login and registration with valid credentials",
+        "description": "",
+        "id": "successful-login-and-registration;successful-login-and-registration-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 347881826110,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32595288592,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"mgr123\" and \"mgr!23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mgr123",
+                  "offset": 11
+                },
+                {
+                  "val": "mgr!23",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.he_enters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13326201507,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "Steps.choose_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163880,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he is able to login sucessfully.",
+            "match": {
+              "location": "Steps.he_is_able_to_login_sucessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11500427744,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on registration link",
+            "match": {
+              "location": "Steps.click_on_registration_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15353000400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the details",
+            "match": {
+              "location": "Steps.enter_the_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1306745775,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "he is registered Successfully.",
+            "match": {
+              "location": "Steps.he_is_registered_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Successful login and registration",
+    "description": "Description: The purpose of this feature is to test End 2 End integration.",
+    "id": "successful-login-and-registration",
+    "keyword": "Feature",
+    "uri": "End2End_Tests.feature"
+  }
+]
